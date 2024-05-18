@@ -16,7 +16,6 @@ class TestPostCreation(BaseTest):
         self.login_page.login(self.data.EMAIL, self.data.PASSWORD)
         self.dashboard_page.is_opened()
         self.post_creation_page.open_n_wait()
-        self.post_creation_page.is_logged_in()
 
         # Actual test
         self.test_data = 'test123'
