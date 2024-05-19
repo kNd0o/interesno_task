@@ -1,26 +1,26 @@
 {
-  "uid" : "675ff84cb1ad73be",
+  "uid" : "be5d58bb470dfc61",
   "name" : "Login",
   "fullName" : "tests.login_test.TestLogin#test_login",
   "historyId" : "2ce0d2b159a1b134adc13e328bfd71c0",
   "time" : {
-    "start" : 1716116320033,
-    "stop" : 1716116320584,
-    "duration" : 551
+    "start" : 1716116468644,
+    "stop" : 1716116468942,
+    "duration" : 298
   },
   "description" : " Checks if user is logged in and Dashboard page is opened ",
   "descriptionHtml" : "<p>Checks if user is logged in and Dashboard page is opened</p>\n",
   "status" : "broken",
   "statusMessage" : "TypeError: 'NoneType' object is not iterable",
-  "statusTrace" : "self = <login_test.TestLogin object at 0x7f7a6edac680>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
+  "statusTrace" : "self = <login_test.TestLogin object at 0x7f765803c890>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1716116320033,
-      "stop" : 1716116320033,
-      "duration" : 0
+      "start" : 1716116468225,
+      "stop" : 1716116468643,
+      "duration" : 418
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,11 +31,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1716116319615,
-      "stop" : 1716116320033,
-      "duration" : 418
+      "start" : 1716116468644,
+      "stop" : 1716116468644,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,13 +50,13 @@
     "description" : " Checks if user is logged in and Dashboard page is opened ",
     "status" : "broken",
     "statusMessage" : "TypeError: 'NoneType' object is not iterable",
-    "statusTrace" : "self = <login_test.TestLogin object at 0x7f7a6edac680>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
+    "statusTrace" : "self = <login_test.TestLogin object at 0x7f765803c890>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716116320033,
-        "stop" : 1716116320554,
-        "duration" : 521
+        "start" : 1716116468644,
+        "stop" : 1716116468917,
+        "duration" : 273
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,9 +69,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716116320555,
-        "stop" : 1716116320583,
-        "duration" : 28
+        "start" : 1716116468917,
+        "stop" : 1716116468941,
+        "duration" : 24
       },
       "status" : "broken",
       "statusMessage" : "TypeError: 'NoneType' object is not iterable\n",
@@ -97,9 +97,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716116320617,
-      "stop" : 1716116320706,
-      "duration" : 89
+      "start" : 1716116468979,
+      "stop" : 1716116469065,
+      "duration" : 86
     },
     "status" : "passed",
     "steps" : [ ],
@@ -127,7 +127,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "508fbac1834a"
+    "value" : "56f42ed5e125"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -159,13 +159,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 4,
+        "broken" : 5,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
+        "uid" : "675ff84cb1ad73be",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716116320033,
+          "stop" : 1716116320584,
+          "duration" : 551
+        }
+      }, {
         "uid" : "5176f742e01d14f5",
         "status" : "broken",
         "statusDetails" : "TypeError: 'NoneType' object is not iterable",
@@ -196,6 +205,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "675ff84cb1ad73be.json",
+  "source" : "be5d58bb470dfc61.json",
   "parameterValues" : [ ]
 }
