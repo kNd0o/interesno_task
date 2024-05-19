@@ -24,3 +24,4 @@ class TestPostCreationFields(BaseTest):
         self.post_creation_page.enter_author(self.test_data)
         self.post_creation_page.click_submit()
         self.post_creation_page.check_validation_fields()
+        self.post_creation_page.make_screenshot('Fields are present')

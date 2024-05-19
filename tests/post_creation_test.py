@@ -27,3 +27,4 @@ class TestPostCreation(BaseTest):
         self.dashboard_page.open_n_wait()
         self.dashboard_page.search_for_title(self.test_data)
         self.dashboard_page.check_table_emptiness()
+        self.dashboard_page.make_screenshot('Table is not empty')
