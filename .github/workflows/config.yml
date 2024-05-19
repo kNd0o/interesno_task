@@ -17,7 +17,7 @@ jobs:
 
       - name: Run UI-tests via docker-compose
         env:
-          LOGIN: ${{ secrets.EMAIL }}
+          EMAIL: ${{ secrets.EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           docker-compose up --exit-code-from regression || true
