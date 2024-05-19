@@ -3,48 +3,48 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "TypeError: 'NoneType' object is not iterable",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Login",
-        "uid" : "be5d58bb470dfc61",
-        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "uid" : "3420447de45ffe36",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1716116468644,
-          "stop" : 1716116468942,
-          "duration" : 298
+          "start" : 1716117130744,
+          "stop" : 1716117133215,
+          "duration" : 2471
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Post creation",
-        "uid" : "49812bfab03f6c9c",
-        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "uid" : "2c12a018295b7b5d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1716116469386,
-          "stop" : 1716116469652,
-          "duration" : 266
+          "start" : 1716117133665,
+          "stop" : 1716117136088,
+          "duration" : 2423
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Post creation fields",
-        "uid" : "92ba53bf6629dc1f",
-        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "uid" : "5c3e0671effa0fa5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1716116470045,
-          "stop" : 1716116470335,
-          "duration" : 290
+          "start" : 1716117136477,
+          "stop" : 1716117138894,
+          "duration" : 2417
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5ae019e15b757cc14ae13e78aec51419"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
