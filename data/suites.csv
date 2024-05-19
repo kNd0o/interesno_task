@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sun May 19 10:58:18 GMT 2024","Sun May 19 10:58:18 GMT 2024","224","tests","post_creation_test","TestPostCreation","","","Post creation"," Positive scenario to test if notification is shown and post indeed created "
-"broken","Sun May 19 10:58:17 GMT 2024","Sun May 19 10:58:17 GMT 2024","330","tests","login_test","TestLogin","","","Login"," Checks if user is logged in and Dashboard page is opened "
-"broken","Sun May 19 10:58:19 GMT 2024","Sun May 19 10:58:19 GMT 2024","224","tests","post_fields_test","TestPostCreationFields","","","Post creation fields"," Checks if validation messages under inputs are shown after focus change "
+"broken","Sun May 19 10:58:41 GMT 2024","Sun May 19 10:58:42 GMT 2024","482","tests","post_fields_test","TestPostCreationFields","","","Post creation fields"," Checks if validation messages under inputs are shown after focus change "
+"broken","Sun May 19 10:58:41 GMT 2024","Sun May 19 10:58:41 GMT 2024","201","tests","post_creation_test","TestPostCreation","","","Post creation"," Positive scenario to test if notification is shown and post indeed created "
+"broken","Sun May 19 10:58:40 GMT 2024","Sun May 19 10:58:40 GMT 2024","551","tests","login_test","TestLogin","","","Login"," Checks if user is logged in and Dashboard page is opened "

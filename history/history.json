@@ -9,13 +9,13 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "ef0446c021f26da5",
+      "uid" : "675ff84cb1ad73be",
       "status" : "broken",
       "statusDetails" : "TypeError: 'NoneType' object is not iterable",
       "time" : {
-        "start" : 1716116297618,
-        "stop" : 1716116297948,
-        "duration" : 330
+        "start" : 1716116320033,
+        "stop" : 1716116320584,
+        "duration" : 551
       }
     }, {
       "uid" : "5176f742e01d14f5",
@@ -56,13 +56,13 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "cd771971c82c69ef",
+      "uid" : "749c75a5f7a6e7bd",
       "status" : "broken",
       "statusDetails" : "TypeError: 'NoneType' object is not iterable",
       "time" : {
-        "start" : 1716116299011,
-        "stop" : 1716116299235,
-        "duration" : 224
+        "start" : 1716116321631,
+        "stop" : 1716116322113,
+        "duration" : 482
       }
     }, {
       "uid" : "fc0bb9a860a71b83",
@@ -103,13 +103,13 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "8b8120817fe80c2",
+      "uid" : "f0f01f3a8bc4dabd",
       "status" : "broken",
       "statusDetails" : "TypeError: 'NoneType' object is not iterable",
       "time" : {
-        "start" : 1716116298396,
-        "stop" : 1716116298620,
-        "duration" : 224
+        "start" : 1716116321037,
+        "stop" : 1716116321238,
+        "duration" : 201
       }
     }, {
       "uid" : "2257d94de71972ad",
