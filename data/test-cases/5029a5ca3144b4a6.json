@@ -1,12 +1,12 @@
 {
-  "uid" : "dec4993dc3291a84",
+  "uid" : "5029a5ca3144b4a6",
   "name" : "Post creation fields",
   "fullName" : "tests.post_fields_test.TestPostCreationFields#test_post_fields",
   "historyId" : "2eb121d29b98d6e00bf3f74ac03096ee",
   "time" : {
-    "start" : 1716120384190,
-    "stop" : 1716120386229,
-    "duration" : 2039
+    "start" : 1716120853066,
+    "stop" : 1716120855088,
+    "duration" : 2022
   },
   "description" : " Checks if validation messages under inputs are shown after focus change ",
   "descriptionHtml" : "<p>Checks if validation messages under inputs are shown after focus change</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1716120383864,
-      "stop" : 1716120384189,
-      "duration" : 325
+      "start" : 1716120853066,
+      "stop" : 1716120853066,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1716120384190,
-      "stop" : 1716120384190,
-      "duration" : 0
+      "start" : 1716120852740,
+      "stop" : 1716120853066,
+      "duration" : 326
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716120384190,
-        "stop" : 1716120384445,
-        "duration" : 255
+        "start" : 1716120853067,
+        "stop" : 1716120853316,
+        "duration" : 249
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716120384446,
-        "stop" : 1716120384516,
-        "duration" : 70
+        "start" : 1716120853316,
+        "stop" : 1716120853385,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716120384516,
-        "stop" : 1716120384570,
-        "duration" : 54
+        "start" : 1716120853385,
+        "stop" : 1716120853438,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,8 +101,8 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716120384570,
-        "stop" : 1716120384610,
+        "start" : 1716120853438,
+        "stop" : 1716120853478,
         "duration" : 40
       },
       "status" : "passed",
@@ -116,9 +116,9 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
       "time" : {
-        "start" : 1716120384610,
-        "stop" : 1716120385618,
-        "duration" : 1008
+        "start" : 1716120853479,
+        "stop" : 1716120854485,
+        "duration" : 1006
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,9 +131,9 @@
     }, {
       "name" : "Open https://test.qa.saritasa.com/admin/create page",
       "time" : {
-        "start" : 1716120385618,
-        "stop" : 1716120385926,
-        "duration" : 308
+        "start" : 1716120854485,
+        "stop" : 1716120854788,
+        "duration" : 303
       },
       "status" : "passed",
       "steps" : [ ],
@@ -146,9 +146,9 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/create is opened",
       "time" : {
-        "start" : 1716120385926,
-        "stop" : 1716120385928,
-        "duration" : 2
+        "start" : 1716120854788,
+        "stop" : 1716120854794,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -161,9 +161,9 @@
     }, {
       "name" : "Entering title",
       "time" : {
-        "start" : 1716120385929,
-        "stop" : 1716120385980,
-        "duration" : 51
+        "start" : 1716120854794,
+        "stop" : 1716120854842,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
@@ -179,9 +179,9 @@
     }, {
       "name" : "Entering content",
       "time" : {
-        "start" : 1716120385980,
-        "stop" : 1716120385992,
-        "duration" : 12
+        "start" : 1716120854842,
+        "stop" : 1716120854852,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,8 +197,8 @@
     }, {
       "name" : "Entering author",
       "time" : {
-        "start" : 1716120385992,
-        "stop" : 1716120386037,
+        "start" : 1716120854852,
+        "stop" : 1716120854897,
         "duration" : 45
       },
       "status" : "passed",
@@ -215,9 +215,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716120386037,
-        "stop" : 1716120386077,
-        "duration" : 40
+        "start" : 1716120854897,
+        "stop" : 1716120854938,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -230,9 +230,9 @@
     }, {
       "name" : "Check for validation fields",
       "time" : {
-        "start" : 1716120386077,
-        "stop" : 1716120386085,
-        "duration" : 8
+        "start" : 1716120854938,
+        "stop" : 1716120854945,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -244,9 +244,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "80479df34ad81371",
+      "uid" : "1588943dd3951bc2",
       "name" : "Fields are present",
-      "source" : "80479df34ad81371.png",
+      "source" : "1588943dd3951bc2.png",
       "type" : "image/png",
       "size" : 44547
     } ],
@@ -259,8 +259,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716120386230,
-      "stop" : 1716120386288,
+      "start" : 1716120855089,
+      "stop" : 1716120855147,
       "duration" : 58
     },
     "status" : "passed",
@@ -273,11 +273,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Minor"
-  }, {
     "name" : "feature",
     "value" : "Post fields testing"
+  }, {
+    "name" : "severity",
+    "value" : "Minor"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -289,7 +289,7 @@
     "value" : "TestPostCreationFields"
   }, {
     "name" : "host",
-    "value" : "ab03b1ece465"
+    "value" : "8a5ad5dd811f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -319,11 +319,19 @@
         "failed" : 0,
         "broken" : 10,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 13
+        "total" : 14
       },
       "items" : [ {
+        "uid" : "dec4993dc3291a84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716120384190,
+          "stop" : 1716120386229,
+          "duration" : 2039
+        }
+      }, {
         "uid" : "64866ae219bf7037",
         "status" : "passed",
         "time" : {
@@ -433,6 +441,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "dec4993dc3291a84.json",
+  "source" : "5029a5ca3144b4a6.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "983ebc7143765b3c",
+  "uid" : "ab761090bbb8db92",
   "name" : "Login",
   "fullName" : "tests.login_test.TestLogin#test_login",
   "historyId" : "2ce0d2b159a1b134adc13e328bfd71c0",
   "time" : {
-    "start" : 1716120377580,
-    "stop" : 1716120379188,
-    "duration" : 1608
+    "start" : 1716120846390,
+    "stop" : 1716120848064,
+    "duration" : 1674
   },
   "description" : " Checks if user is logged in and Dashboard page is opened ",
   "descriptionHtml" : "<p>Checks if user is logged in and Dashboard page is opened</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1716120377178,
-      "stop" : 1716120377579,
-      "duration" : 401
+      "start" : 1716120846390,
+      "stop" : 1716120846390,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1716120377579,
-      "stop" : 1716120377580,
-      "duration" : 1
+      "start" : 1716120845936,
+      "stop" : 1716120846390,
+      "duration" : 454
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716120377580,
-        "stop" : 1716120377856,
-        "duration" : 276
+        "start" : 1716120846390,
+        "stop" : 1716120846737,
+        "duration" : 347
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716120377856,
-        "stop" : 1716120377930,
-        "duration" : 74
+        "start" : 1716120846737,
+        "stop" : 1716120846808,
+        "duration" : 71
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,8 +83,8 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716120377930,
-        "stop" : 1716120377983,
+        "start" : 1716120846808,
+        "stop" : 1716120846861,
         "duration" : 53
       },
       "status" : "passed",
@@ -101,9 +101,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716120377984,
-        "stop" : 1716120378023,
-        "duration" : 39
+        "start" : 1716120846861,
+        "stop" : 1716120846902,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,9 +116,9 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
       "time" : {
-        "start" : 1716120378023,
-        "stop" : 1716120379029,
-        "duration" : 1006
+        "start" : 1716120846902,
+        "stop" : 1716120847909,
+        "duration" : 1007
       },
       "status" : "passed",
       "steps" : [ ],
@@ -130,9 +130,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "5b1342c093696479",
+      "uid" : "c80c465d89174e8",
       "name" : "Successful login",
-      "source" : "5b1342c093696479.png",
+      "source" : "c80c465d89174e8.png",
       "type" : "image/png",
       "size" : 91624
     } ],
@@ -145,9 +145,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716120379188,
-      "stop" : 1716120379275,
-      "duration" : 87
+      "start" : 1716120848064,
+      "stop" : 1716120848149,
+      "duration" : 85
     },
     "status" : "passed",
     "steps" : [ ],
@@ -175,7 +175,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "ab03b1ece465"
+    "value" : "8a5ad5dd811f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -205,11 +205,19 @@
         "failed" : 0,
         "broken" : 10,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 13
+        "total" : 14
       },
       "items" : [ {
+        "uid" : "983ebc7143765b3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716120377580,
+          "stop" : 1716120379188,
+          "duration" : 1608
+        }
+      }, {
         "uid" : "e1b50c1712f5ffb6",
         "status" : "passed",
         "time" : {
@@ -319,6 +327,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "983ebc7143765b3c.json",
+  "source" : "ab761090bbb8db92.json",
   "parameterValues" : [ ]
 }
