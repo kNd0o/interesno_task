@@ -2,13 +2,22 @@
   "2ce0d2b159a1b134adc13e328bfd71c0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "891a49480c219766",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1716117370078,
+        "stop" : 1716117380652,
+        "duration" : 10574
+      }
+    }, {
       "uid" : "3420447de45ffe36",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -67,13 +76,22 @@
   "2eb121d29b98d6e00bf3f74ac03096ee" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "81f56cd2c28ba759",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1716117391975,
+        "stop" : 1716117402463,
+        "duration" : 10488
+      }
+    }, {
       "uid" : "5c3e0671effa0fa5",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -132,13 +150,22 @@
   "6d7870466a27c420521208da507f9db4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "a6477b51c705f04",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1716117381098,
+        "stop" : 1716117391580,
+        "duration" : 10482
+      }
+    }, {
       "uid" : "2c12a018295b7b5d",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
