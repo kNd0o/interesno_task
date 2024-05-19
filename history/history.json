@@ -2,13 +2,22 @@
   "2ce0d2b159a1b134adc13e328bfd71c0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "4842e53ca709dc99",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1716118913997,
+        "stop" : 1716118924456,
+        "duration" : 10459
+      }
+    }, {
       "uid" : "471085bad1e9ba05",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -94,13 +103,22 @@
   "2eb121d29b98d6e00bf3f74ac03096ee" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "c1903d3a496c14d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1716118935719,
+        "stop" : 1716118946152,
+        "duration" : 10433
+      }
+    }, {
       "uid" : "8e77fa2f34ad3220",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -186,13 +204,22 @@
   "6d7870466a27c420521208da507f9db4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "b0e7a23c6b2e93d3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1716118924905,
+        "stop" : 1716118935327,
+        "duration" : 10422
+      }
+    }, {
       "uid" : "384811c312b13ba3",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
