@@ -1,25 +1,25 @@
 {
-  "uid" : "ad5ed71716ffd135",
+  "uid" : "2257d94de71972ad",
   "name" : "Post creation",
   "fullName" : "tests.post_creation_test.TestPostCreation#test_post_creation",
   "historyId" : "6d7870466a27c420521208da507f9db4",
   "time" : {
-    "start" : 1716113753080,
-    "stop" : 1716113753284,
-    "duration" : 204
+    "start" : 1716115467482,
+    "stop" : 1716115467691,
+    "duration" : 209
   },
   "description" : " Positive scenario to test if notification is shown and post indeed created ",
   "descriptionHtml" : "<p>Positive scenario to test if notification is shown and post indeed created</p>\n",
   "status" : "broken",
   "statusMessage" : "TypeError: 'NoneType' object is not iterable",
-  "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7f603ae21f40>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
+  "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7f749611e300>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1716113753080,
-      "stop" : 1716113753080,
+      "start" : 1716115467482,
+      "stop" : 1716115467482,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,9 +33,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1716113752746,
-      "stop" : 1716113753079,
-      "duration" : 333
+      "start" : 1716115467155,
+      "stop" : 1716115467482,
+      "duration" : 327
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,13 +50,13 @@
     "description" : " Positive scenario to test if notification is shown and post indeed created ",
     "status" : "broken",
     "statusMessage" : "TypeError: 'NoneType' object is not iterable",
-    "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7f603ae21f40>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
+    "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7f749611e300>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:28: in login\n    self.enter_email(email)\npages/login_page.py:16: in enter_email\n    self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:232: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:137: TypeError",
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716113753080,
-        "stop" : 1716113753262,
-        "duration" : 182
+        "start" : 1716115467482,
+        "stop" : 1716115467668,
+        "duration" : 186
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,9 +69,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716113753263,
-        "stop" : 1716113753283,
-        "duration" : 20
+        "start" : 1716115467668,
+        "stop" : 1716115467690,
+        "duration" : 22
       },
       "status" : "broken",
       "statusMessage" : "TypeError: 'NoneType' object is not iterable\n",
@@ -97,9 +97,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716113753294,
-      "stop" : 1716113753350,
-      "duration" : 56
+      "start" : 1716115467700,
+      "stop" : 1716115467755,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -127,7 +127,7 @@
     "value" : "TestPostCreation"
   }, {
     "name" : "host",
-    "value" : "7845d230ff14"
+    "value" : "d4441763ecba"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -159,13 +159,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "ad5ed71716ffd135",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716113753080,
+          "stop" : 1716113753284,
+          "duration" : 204
+        }
+      }, {
         "uid" : "708359e831eee58f",
         "status" : "broken",
         "statusDetails" : "TypeError: 'NoneType' object is not iterable",
@@ -178,6 +187,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "ad5ed71716ffd135.json",
+  "source" : "2257d94de71972ad.json",
   "parameterValues" : [ ]
 }

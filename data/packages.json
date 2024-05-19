@@ -6,13 +6,13 @@
       "name" : "login_test",
       "children" : [ {
         "name" : "Login",
-        "uid" : "41e346d87516dc95",
+        "uid" : "5176f742e01d14f5",
         "parentUid" : "fa8380230272a9bb1a6d6e9ad8189b2e",
         "status" : "broken",
         "time" : {
-          "start" : 1716113752396,
-          "stop" : 1716113752624,
-          "duration" : 228
+          "start" : 1716115466728,
+          "stop" : 1716115467030,
+          "duration" : 302
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "post_creation_test",
       "children" : [ {
         "name" : "Post creation",
-        "uid" : "ad5ed71716ffd135",
+        "uid" : "2257d94de71972ad",
         "parentUid" : "5c7fa90e7679b106ad0f762ee68cabda",
         "status" : "broken",
         "time" : {
-          "start" : 1716113753080,
-          "stop" : 1716113753284,
-          "duration" : 204
+          "start" : 1716115467482,
+          "stop" : 1716115467691,
+          "duration" : 209
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
       "name" : "post_fields_test",
       "children" : [ {
         "name" : "Post creation fields",
-        "uid" : "caa89c9e46a98b3a",
+        "uid" : "fc0bb9a860a71b83",
         "parentUid" : "cf66452f5ab99b402cc81d5fa8697987",
         "status" : "broken",
         "time" : {
-          "start" : 1716113753679,
-          "stop" : 1716113753877,
-          "duration" : 198
+          "start" : 1716115468080,
+          "stop" : 1716115468283,
+          "duration" : 203
         },
         "flaky" : false,
         "newFailed" : false,

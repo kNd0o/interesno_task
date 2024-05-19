@@ -6,39 +6,39 @@
       "name" : "TypeError: 'NoneType' object is not iterable",
       "children" : [ {
         "name" : "Login",
-        "uid" : "41e346d87516dc95",
+        "uid" : "5176f742e01d14f5",
         "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
         "status" : "broken",
         "time" : {
-          "start" : 1716113752396,
-          "stop" : 1716113752624,
-          "duration" : 228
+          "start" : 1716115466728,
+          "stop" : 1716115467030,
+          "duration" : 302
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Post creation",
-        "uid" : "ad5ed71716ffd135",
+        "uid" : "2257d94de71972ad",
         "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
         "status" : "broken",
         "time" : {
-          "start" : 1716113753080,
-          "stop" : 1716113753284,
-          "duration" : 204
+          "start" : 1716115467482,
+          "stop" : 1716115467691,
+          "duration" : 209
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Post creation fields",
-        "uid" : "caa89c9e46a98b3a",
+        "uid" : "fc0bb9a860a71b83",
         "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
         "status" : "broken",
         "time" : {
-          "start" : 1716113753679,
-          "stop" : 1716113753877,
-          "duration" : 198
+          "start" : 1716115468080,
+          "stop" : 1716115468283,
+          "duration" : 203
         },
         "flaky" : false,
         "newFailed" : false,
