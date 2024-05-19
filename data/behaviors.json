@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Login testing",
+    "children" : [ {
+      "name" : "Login",
+      "uid" : "74c672b918fb58bc",
+      "parentUid" : "2cb990d5b54c8a64524b5bc61f2d9262",
+      "status" : "broken",
+      "time" : {
+        "start" : 1716112844334,
+        "stop" : 1716112844668,
+        "duration" : 334
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2cb990d5b54c8a64524b5bc61f2d9262"
+  }, {
+    "name" : "Post creation testing",
+    "children" : [ {
+      "name" : "Post creation",
+      "uid" : "d267154ec5cdd0cd",
+      "parentUid" : "97237f0eb73e4b1aade16a28ee900918",
+      "status" : "broken",
+      "time" : {
+        "start" : 1716112845120,
+        "stop" : 1716112845342,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "97237f0eb73e4b1aade16a28ee900918"
+  }, {
+    "name" : "Post fields testing",
+    "children" : [ {
+      "name" : "Post creation fields",
+      "uid" : "bc3108c938dddce",
+      "parentUid" : "ca14215facbf6845c785fed917d87936",
+      "status" : "broken",
+      "time" : {
+        "start" : 1716112845732,
+        "stop" : 1716112845961,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca14215facbf6845c785fed917d87936"
+  } ],
+  "name" : "behaviors"
+}

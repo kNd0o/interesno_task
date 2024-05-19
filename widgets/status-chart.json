@@ -1,0 +1,31 @@
+[ {
+  "uid" : "bc3108c938dddce",
+  "name" : "Post creation fields",
+  "time" : {
+    "start" : 1716112845732,
+    "stop" : 1716112845961,
+    "duration" : 229
+  },
+  "status" : "broken",
+  "severity" : "minor"
+}, {
+  "uid" : "d267154ec5cdd0cd",
+  "name" : "Post creation",
+  "time" : {
+    "start" : 1716112845120,
+    "stop" : 1716112845342,
+    "duration" : 222
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "74c672b918fb58bc",
+  "name" : "Login",
+  "time" : {
+    "start" : 1716112844334,
+    "stop" : 1716112844668,
+    "duration" : 334
+  },
+  "status" : "broken",
+  "severity" : "critical"
+} ]

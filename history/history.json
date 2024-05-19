@@ -1,0 +1,62 @@
+{
+  "2ce0d2b159a1b134adc13e328bfd71c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74c672b918fb58bc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1716112844334,
+        "stop" : 1716112844668,
+        "duration" : 334
+      }
+    } ]
+  },
+  "2eb121d29b98d6e00bf3f74ac03096ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc3108c938dddce",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1716112845732,
+        "stop" : 1716112845961,
+        "duration" : 229
+      }
+    } ]
+  },
+  "6d7870466a27c420521208da507f9db4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d267154ec5cdd0cd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1716112845120,
+        "stop" : 1716112845342,
+        "duration" : 222
+      }
+    } ]
+  }
+}
