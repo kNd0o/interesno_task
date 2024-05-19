@@ -1,26 +1,26 @@
 {
-  "uid" : "a6477b51c705f04",
+  "uid" : "5dd31b2a144fa1f2",
   "name" : "Post creation",
   "fullName" : "tests.post_creation_test.TestPostCreation#test_post_creation",
   "historyId" : "6d7870466a27c420521208da507f9db4",
   "time" : {
-    "start" : 1716117381098,
-    "stop" : 1716117391580,
-    "duration" : 10482
+    "start" : 1716118017579,
+    "stop" : 1716118028006,
+    "duration" : 10427
   },
   "description" : " Positive scenario to test if notification is shown and post indeed created ",
   "descriptionHtml" : "<p>Positive scenario to test if notification is shown and post indeed created</p>\n",
   "status" : "broken",
   "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-  "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7fc53aa920c0>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0b47c3eec1e64a1cc001bee9b5cb947a\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7fc539f04720>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+  "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7f7979568770>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"3db9fc24db4b44651423563e0fd3b8c6\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f7979110720>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1716117380767,
-      "stop" : 1716117381098,
-      "duration" : 331
+      "start" : 1716118017579,
+      "stop" : 1716118017579,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,11 +31,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1716117381098,
-      "stop" : 1716117381098,
-      "duration" : 0
+      "start" : 1716118017252,
+      "stop" : 1716118017579,
+      "duration" : 327
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,13 +50,13 @@
     "description" : " Positive scenario to test if notification is shown and post indeed created ",
     "status" : "broken",
     "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-    "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7fc53aa920c0>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0b47c3eec1e64a1cc001bee9b5cb947a\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7fc539f04720>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+    "statusTrace" : "self = <post_creation_test.TestPostCreation object at 0x7f7979568770>\n\n    @allure.title('Post creation')\n    @allure.severity('Critical')\n    def test_post_creation(self):\n        \"\"\" Positive scenario to test if notification is shown and post indeed created \"\"\"\n    \n        # Pre-condition\n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/post_creation_test.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"3db9fc24db4b44651423563e0fd3b8c6\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f7979110720>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716117381098,
-        "stop" : 1716117381338,
-        "duration" : 240
+        "start" : 1716118017579,
+        "stop" : 1716118017762,
+        "duration" : 183
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,9 +69,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716117381338,
-        "stop" : 1716117381385,
-        "duration" : 47
+        "start" : 1716118017762,
+        "stop" : 1716118017814,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -87,9 +87,9 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716117381385,
-        "stop" : 1716117381446,
-        "duration" : 61
+        "start" : 1716118017814,
+        "stop" : 1716118017872,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
@@ -105,9 +105,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716117381447,
-        "stop" : 1716117391579,
-        "duration" : 10132
+        "start" : 1716118017872,
+        "stop" : 1716118028005,
+        "duration" : 10133
       },
       "status" : "broken",
       "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
@@ -130,8 +130,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716117391586,
-      "stop" : 1716117391643,
+      "start" : 1716118028012,
+      "stop" : 1716118028069,
       "duration" : 57
     },
     "status" : "passed",
@@ -160,7 +160,7 @@
     "value" : "TestPostCreation"
   }, {
     "name" : "host",
-    "value" : "a54628d4c6f1"
+    "value" : "5d30522d7c81"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -192,13 +192,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 7,
+        "broken" : 8,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "a6477b51c705f04",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716117381098,
+          "stop" : 1716117391580,
+          "duration" : 10482
+        }
+      }, {
         "uid" : "2c12a018295b7b5d",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -256,6 +265,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "a6477b51c705f04.json",
+  "source" : "5dd31b2a144fa1f2.json",
   "parameterValues" : [ ]
 }
