@@ -1,26 +1,26 @@
 {
-  "uid" : "b58313be21bd0b41",
+  "uid" : "471085bad1e9ba05",
   "name" : "Login",
   "fullName" : "tests.login_test.TestLogin#test_login",
   "historyId" : "2ce0d2b159a1b134adc13e328bfd71c0",
   "time" : {
-    "start" : 1716118006680,
-    "stop" : 1716118017137,
-    "duration" : 10457
+    "start" : 1716118494117,
+    "stop" : 1716118504588,
+    "duration" : 10471
   },
   "description" : " Checks if user is logged in and Dashboard page is opened ",
   "descriptionHtml" : "<p>Checks if user is logged in and Dashboard page is opened</p>\n",
   "status" : "broken",
   "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-  "statusTrace" : "self = <login_test.TestLogin object at 0x7f7979e9c1a0>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"066890d4a65dc477242b1e218a35706e\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f79790d79c0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+  "statusTrace" : "self = <login_test.TestLogin object at 0x7eff542cac90>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"bf63b2dafa62a99c4be3c8c5824f984a\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7eff5359b9c0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1716118006303,
-      "stop" : 1716118006679,
-      "duration" : 376
+      "start" : 1716118494116,
+      "stop" : 1716118494116,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,11 +31,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1716118006680,
-      "stop" : 1716118006680,
-      "duration" : 0
+      "start" : 1716118493665,
+      "stop" : 1716118494116,
+      "duration" : 451
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,13 +50,13 @@
     "description" : " Checks if user is logged in and Dashboard page is opened ",
     "status" : "broken",
     "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
-    "statusTrace" : "self = <login_test.TestLogin object at 0x7f7979e9c1a0>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"066890d4a65dc477242b1e218a35706e\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7f79790d79c0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+    "statusTrace" : "self = <login_test.TestLogin object at 0x7eff542cac90>\n\n    @allure.title('Login')\n    @allure.severity('Critical')\n    def test_login(self):\n        \"\"\" Checks if user is logged in and Dashboard page is opened \"\"\"\n    \n>       self.login_page.login(self.data.EMAIL, self.data.PASSWORD)\n\ntests/login_test.py:14: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/login_page.py:30: in login\n    self.click_submit()\npages/login_page.py:24: in click_submit\n    self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"bf63b2dafa62a99c4be3c8c5824f984a\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x7eff5359b9c0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716118006680,
-        "stop" : 1716118006892,
-        "duration" : 212
+        "start" : 1716118494117,
+        "stop" : 1716118494339,
+        "duration" : 222
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,8 +69,8 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716118006892,
-        "stop" : 1716118006941,
+        "start" : 1716118494339,
+        "stop" : 1716118494388,
         "duration" : 49
       },
       "status" : "passed",
@@ -87,9 +87,9 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716118006941,
-        "stop" : 1716118007002,
-        "duration" : 61
+        "start" : 1716118494389,
+        "stop" : 1716118494454,
+        "duration" : 65
       },
       "status" : "passed",
       "steps" : [ ],
@@ -105,9 +105,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716118007002,
-        "stop" : 1716118017136,
-        "duration" : 10134
+        "start" : 1716118494454,
+        "stop" : 1716118504587,
+        "duration" : 10133
       },
       "status" : "broken",
       "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
@@ -130,8 +130,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716118017166,
-      "stop" : 1716118017251,
+      "start" : 1716118504618,
+      "stop" : 1716118504703,
       "duration" : 85
     },
     "status" : "passed",
@@ -160,7 +160,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "5d30522d7c81"
+    "value" : "953ecb5acd27"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -192,13 +192,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 8,
+        "broken" : 9,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 8
+        "total" : 9
       },
       "items" : [ {
+        "uid" : "b58313be21bd0b41",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716118006680,
+          "stop" : 1716118017137,
+          "duration" : 10457
+        }
+      }, {
         "uid" : "891a49480c219766",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -265,6 +274,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "b58313be21bd0b41.json",
+  "source" : "471085bad1e9ba05.json",
   "parameterValues" : [ ]
 }
