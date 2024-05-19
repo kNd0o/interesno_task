@@ -1,0 +1,479 @@
+{
+  "uid" : "3bc33382db3f8c72",
+  "name" : "Post creation",
+  "fullName" : "tests.post_creation_test.TestPostCreation#test_post_creation",
+  "historyId" : "6d7870466a27c420521208da507f9db4",
+  "time" : {
+    "start" : 1716119250969,
+    "stop" : 1716119254943,
+    "duration" : 3974
+  },
+  "description" : " Positive scenario to test if notification is shown and post indeed created ",
+  "descriptionHtml" : "<p>Positive scenario to test if notification is shown and post indeed created</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1716119250969,
+      "stop" : 1716119250969,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1716119250643,
+      "stop" : 1716119250969,
+      "duration" : 326
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : " Positive scenario to test if notification is shown and post indeed created ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://test.qa.saritasa.com/admin/login page",
+      "time" : {
+        "start" : 1716119250969,
+        "stop" : 1716119251155,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Entering email",
+      "time" : {
+        "start" : 1716119251155,
+        "stop" : 1716119251220,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "'testuser@saritasa.com'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Entering password",
+      "time" : {
+        "start" : 1716119251221,
+        "stop" : 1716119251277,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'NewQA123!'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Clicking submit button",
+      "time" : {
+        "start" : 1716119251277,
+        "stop" : 1716119251322,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
+      "time" : {
+        "start" : 1716119251322,
+        "stop" : 1716119252329,
+        "duration" : 1007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open https://test.qa.saritasa.com/admin/create page",
+      "time" : {
+        "start" : 1716119252329,
+        "stop" : 1716119252630,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://test.qa.saritasa.com/admin/create is opened",
+      "time" : {
+        "start" : 1716119252630,
+        "stop" : 1716119252633,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Entering title",
+      "time" : {
+        "start" : 1716119252633,
+        "stop" : 1716119252690,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title_text",
+        "value" : "'test123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Entering content",
+      "time" : {
+        "start" : 1716119252690,
+        "stop" : 1716119252704,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "content_text",
+        "value" : "'test123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Entering author",
+      "time" : {
+        "start" : 1716119252704,
+        "stop" : 1716119252753,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "author_text",
+        "value" : "'test123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Clicking submit button",
+      "time" : {
+        "start" : 1716119252753,
+        "stop" : 1716119252792,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check if success-popup is present",
+      "time" : {
+        "start" : 1716119252792,
+        "stop" : 1716119253806,
+        "duration" : 1014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open https://test.qa.saritasa.com/admin/dashboard page",
+      "time" : {
+        "start" : 1716119253806,
+        "stop" : 1716119253853,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
+      "time" : {
+        "start" : 1716119253853,
+        "stop" : 1716119253856,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Searching for title",
+      "time" : {
+        "start" : 1716119253856,
+        "stop" : 1716119254930,
+        "duration" : 1074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'test123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Checking table emptiness",
+      "time" : {
+        "start" : 1716119254930,
+        "stop" : 1716119254943,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1716119254944,
+      "stop" : 1716119255001,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Post creation testing"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "post_creation_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostCreation"
+  }, {
+    "name" : "host",
+    "value" : "6489c59af9be"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.post_creation_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 10,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "b0e7a23c6b2e93d3",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716118924905,
+          "stop" : 1716118935327,
+          "duration" : 10422
+        }
+      }, {
+        "uid" : "384811c312b13ba3",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716118505036,
+          "stop" : 1716118515575,
+          "duration" : 10539
+        }
+      }, {
+        "uid" : "5dd31b2a144fa1f2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716118017579,
+          "stop" : 1716118028006,
+          "duration" : 10427
+        }
+      }, {
+        "uid" : "a6477b51c705f04",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716117381098,
+          "stop" : 1716117391580,
+          "duration" : 10482
+        }
+      }, {
+        "uid" : "2c12a018295b7b5d",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1716117133665,
+          "stop" : 1716117136088,
+          "duration" : 2423
+        }
+      }, {
+        "uid" : "49812bfab03f6c9c",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716116469386,
+          "stop" : 1716116469652,
+          "duration" : 266
+        }
+      }, {
+        "uid" : "f0f01f3a8bc4dabd",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716116321037,
+          "stop" : 1716116321238,
+          "duration" : 201
+        }
+      }, {
+        "uid" : "2257d94de71972ad",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716115467482,
+          "stop" : 1716115467691,
+          "duration" : 209
+        }
+      }, {
+        "uid" : "ad5ed71716ffd135",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716113753080,
+          "stop" : 1716113753284,
+          "duration" : 204
+        }
+      }, {
+        "uid" : "708359e831eee58f",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1716113255211,
+          "stop" : 1716113255483,
+          "duration" : 272
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3bc33382db3f8c72.json",
+  "parameterValues" : [ ]
+}
