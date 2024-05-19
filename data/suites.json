@@ -8,13 +8,13 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "Login",
-          "uid" : "ad703ac3ceb57504",
+          "uid" : "e1b50c1712f5ffb6",
           "parentUid" : "abaa6657b84b5ae6bdae28654e3ff7ec",
           "status" : "passed",
           "time" : {
-            "start" : 1716119248956,
-            "stop" : 1716119250556,
-            "duration" : 1600
+            "start" : 1716119566253,
+            "stop" : 1716119567812,
+            "duration" : 1559
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,13 +29,13 @@
         "name" : "TestPostCreation",
         "children" : [ {
           "name" : "Post creation",
-          "uid" : "3bc33382db3f8c72",
+          "uid" : "a916e0cbf042fc31",
           "parentUid" : "4afd2ffe759da7e95cb89719cbe9e185",
           "status" : "passed",
           "time" : {
-            "start" : 1716119250969,
-            "stop" : 1716119254943,
-            "duration" : 3974
+            "start" : 1716119568239,
+            "stop" : 1716119572244,
+            "duration" : 4005
           },
           "flaky" : false,
           "newFailed" : false,
@@ -50,13 +50,13 @@
         "name" : "TestPostCreationFields",
         "children" : [ {
           "name" : "Post creation fields",
-          "uid" : "c560d9c2bf116206",
+          "uid" : "64866ae219bf7037",
           "parentUid" : "993e9f19bf2cb22a19ec45accd70f95e",
           "status" : "passed",
           "time" : {
-            "start" : 1716119255329,
-            "stop" : 1716119257146,
-            "duration" : 1817
+            "start" : 1716119572637,
+            "stop" : 1716119574465,
+            "duration" : 1828
           },
           "flaky" : false,
           "newFailed" : false,

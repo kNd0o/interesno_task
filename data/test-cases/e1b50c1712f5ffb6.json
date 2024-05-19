@@ -1,12 +1,12 @@
 {
-  "uid" : "ad703ac3ceb57504",
+  "uid" : "e1b50c1712f5ffb6",
   "name" : "Login",
   "fullName" : "tests.login_test.TestLogin#test_login",
   "historyId" : "2ce0d2b159a1b134adc13e328bfd71c0",
   "time" : {
-    "start" : 1716119248956,
-    "stop" : 1716119250556,
-    "duration" : 1600
+    "start" : 1716119566253,
+    "stop" : 1716119567812,
+    "duration" : 1559
   },
   "description" : " Checks if user is logged in and Dashboard page is opened ",
   "descriptionHtml" : "<p>Checks if user is logged in and Dashboard page is opened</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1716119248567,
-      "stop" : 1716119248955,
-      "duration" : 388
+      "start" : 1716119565860,
+      "stop" : 1716119566252,
+      "duration" : 392
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1716119248955,
-      "stop" : 1716119248955,
+      "start" : 1716119566253,
+      "stop" : 1716119566253,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716119248956,
-        "stop" : 1716119249229,
-        "duration" : 273
+        "start" : 1716119566253,
+        "stop" : 1716119566495,
+        "duration" : 242
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716119249229,
-        "stop" : 1716119249302,
-        "duration" : 73
+        "start" : 1716119566495,
+        "stop" : 1716119566562,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716119249303,
-        "stop" : 1716119249356,
-        "duration" : 53
+        "start" : 1716119566562,
+        "stop" : 1716119566616,
+        "duration" : 54
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,9 +101,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716119249356,
-        "stop" : 1716119249396,
-        "duration" : 40
+        "start" : 1716119566616,
+        "stop" : 1716119566662,
+        "duration" : 46
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,8 +116,8 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
       "time" : {
-        "start" : 1716119249396,
-        "stop" : 1716119250403,
+        "start" : 1716119566662,
+        "stop" : 1716119567669,
         "duration" : 1007
       },
       "status" : "passed",
@@ -130,9 +130,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "642e95a86f54b895",
+      "uid" : "50c1b04e41bb16c7",
       "name" : "Successful login",
-      "source" : "642e95a86f54b895.png",
+      "source" : "50c1b04e41bb16c7.png",
       "type" : "image/png",
       "size" : 91624
     } ],
@@ -145,9 +145,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716119250557,
-      "stop" : 1716119250642,
-      "duration" : 85
+      "start" : 1716119567812,
+      "stop" : 1716119567900,
+      "duration" : 88
     },
     "status" : "passed",
     "steps" : [ ],
@@ -175,7 +175,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "6489c59af9be"
+    "value" : "895586fc6240"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -205,11 +205,19 @@
         "failed" : 0,
         "broken" : 10,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 11
+        "total" : 12
       },
       "items" : [ {
+        "uid" : "ad703ac3ceb57504",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716119248956,
+          "stop" : 1716119250556,
+          "duration" : 1600
+        }
+      }, {
         "uid" : "4842e53ca709dc99",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -303,6 +311,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "ad703ac3ceb57504.json",
+  "source" : "e1b50c1712f5ffb6.json",
   "parameterValues" : [ ]
 }

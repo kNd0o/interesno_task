@@ -1,12 +1,12 @@
 {
-  "uid" : "c560d9c2bf116206",
+  "uid" : "64866ae219bf7037",
   "name" : "Post creation fields",
   "fullName" : "tests.post_fields_test.TestPostCreationFields#test_post_fields",
   "historyId" : "2eb121d29b98d6e00bf3f74ac03096ee",
   "time" : {
-    "start" : 1716119255329,
-    "stop" : 1716119257146,
-    "duration" : 1817
+    "start" : 1716119572637,
+    "stop" : 1716119574465,
+    "duration" : 1828
   },
   "description" : " Checks if validation messages under inputs are shown after focus change ",
   "descriptionHtml" : "<p>Checks if validation messages under inputs are shown after focus change</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1716119255003,
-      "stop" : 1716119255328,
-      "duration" : 325
+      "start" : 1716119572305,
+      "stop" : 1716119572637,
+      "duration" : 332
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1716119255328,
-      "stop" : 1716119255328,
+      "start" : 1716119572637,
+      "stop" : 1716119572637,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716119255329,
-        "stop" : 1716119255524,
-        "duration" : 195
+        "start" : 1716119572637,
+        "stop" : 1716119572845,
+        "duration" : 208
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716119255524,
-        "stop" : 1716119255596,
-        "duration" : 72
+        "start" : 1716119572845,
+        "stop" : 1716119572919,
+        "duration" : 74
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716119255596,
-        "stop" : 1716119255648,
-        "duration" : 52
+        "start" : 1716119572919,
+        "stop" : 1716119572973,
+        "duration" : 54
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,9 +101,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716119255648,
-        "stop" : 1716119255689,
-        "duration" : 41
+        "start" : 1716119572973,
+        "stop" : 1716119573015,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,8 +116,8 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
       "time" : {
-        "start" : 1716119255689,
-        "stop" : 1716119256696,
+        "start" : 1716119573015,
+        "stop" : 1716119574022,
         "duration" : 1007
       },
       "status" : "passed",
@@ -131,9 +131,9 @@
     }, {
       "name" : "Open https://test.qa.saritasa.com/admin/create page",
       "time" : {
-        "start" : 1716119256696,
-        "stop" : 1716119256987,
-        "duration" : 291
+        "start" : 1716119574022,
+        "stop" : 1716119574303,
+        "duration" : 281
       },
       "status" : "passed",
       "steps" : [ ],
@@ -146,9 +146,9 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/create is opened",
       "time" : {
-        "start" : 1716119256987,
-        "stop" : 1716119256990,
-        "duration" : 3
+        "start" : 1716119574303,
+        "stop" : 1716119574312,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -161,9 +161,9 @@
     }, {
       "name" : "Entering title",
       "time" : {
-        "start" : 1716119256990,
-        "stop" : 1716119257042,
-        "duration" : 52
+        "start" : 1716119574312,
+        "stop" : 1716119574359,
+        "duration" : 47
       },
       "status" : "passed",
       "steps" : [ ],
@@ -179,9 +179,9 @@
     }, {
       "name" : "Entering content",
       "time" : {
-        "start" : 1716119257042,
-        "stop" : 1716119257054,
-        "duration" : 12
+        "start" : 1716119574359,
+        "stop" : 1716119574370,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,9 +197,9 @@
     }, {
       "name" : "Entering author",
       "time" : {
-        "start" : 1716119257054,
-        "stop" : 1716119257098,
-        "duration" : 44
+        "start" : 1716119574370,
+        "stop" : 1716119574415,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -215,9 +215,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716119257098,
-        "stop" : 1716119257138,
-        "duration" : 40
+        "start" : 1716119574415,
+        "stop" : 1716119574457,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -230,8 +230,8 @@
     }, {
       "name" : "Check for validation fields",
       "time" : {
-        "start" : 1716119257138,
-        "stop" : 1716119257146,
+        "start" : 1716119574457,
+        "stop" : 1716119574465,
         "duration" : 8
       },
       "status" : "passed",
@@ -253,8 +253,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716119257146,
-      "stop" : 1716119257204,
+      "start" : 1716119574466,
+      "stop" : 1716119574524,
       "duration" : 58
     },
     "status" : "passed",
@@ -283,7 +283,7 @@
     "value" : "TestPostCreationFields"
   }, {
     "name" : "host",
-    "value" : "6489c59af9be"
+    "value" : "895586fc6240"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -313,11 +313,19 @@
         "failed" : 0,
         "broken" : 10,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 11
+        "total" : 12
       },
       "items" : [ {
+        "uid" : "c560d9c2bf116206",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716119255329,
+          "stop" : 1716119257146,
+          "duration" : 1817
+        }
+      }, {
         "uid" : "c1903d3a496c14d9",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -411,6 +419,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "c560d9c2bf116206.json",
+  "source" : "64866ae219bf7037.json",
   "parameterValues" : [ ]
 }
