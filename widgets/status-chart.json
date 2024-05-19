@@ -1,31 +1,31 @@
 [ {
-  "uid" : "a916e0cbf042fc31",
-  "name" : "Post creation",
-  "time" : {
-    "start" : 1716119568239,
-    "stop" : 1716119572244,
-    "duration" : 4005
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e1b50c1712f5ffb6",
+  "uid" : "983ebc7143765b3c",
   "name" : "Login",
   "time" : {
-    "start" : 1716119566253,
-    "stop" : 1716119567812,
-    "duration" : 1559
+    "start" : 1716120377580,
+    "stop" : 1716120379188,
+    "duration" : 1608
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "64866ae219bf7037",
+  "uid" : "dec4993dc3291a84",
   "name" : "Post creation fields",
   "time" : {
-    "start" : 1716119572637,
-    "stop" : 1716119574465,
-    "duration" : 1828
+    "start" : 1716120384190,
+    "stop" : 1716120386229,
+    "duration" : 2039
   },
   "status" : "passed",
   "severity" : "minor"
+}, {
+  "uid" : "35a2c9fa4e96d2f1",
+  "name" : "Post creation",
+  "time" : {
+    "start" : 1716120379605,
+    "stop" : 1716120383804,
+    "duration" : 4199
+  },
+  "status" : "passed",
+  "severity" : "critical"
 } ]

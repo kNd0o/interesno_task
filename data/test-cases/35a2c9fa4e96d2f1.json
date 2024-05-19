@@ -1,12 +1,12 @@
 {
-  "uid" : "a916e0cbf042fc31",
+  "uid" : "35a2c9fa4e96d2f1",
   "name" : "Post creation",
   "fullName" : "tests.post_creation_test.TestPostCreation#test_post_creation",
   "historyId" : "6d7870466a27c420521208da507f9db4",
   "time" : {
-    "start" : 1716119568239,
-    "stop" : 1716119572244,
-    "duration" : 4005
+    "start" : 1716120379605,
+    "stop" : 1716120383804,
+    "duration" : 4199
   },
   "description" : " Positive scenario to test if notification is shown and post indeed created ",
   "descriptionHtml" : "<p>Positive scenario to test if notification is shown and post indeed created</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1716119568239,
-      "stop" : 1716119568239,
-      "duration" : 0
+      "start" : 1716120379276,
+      "stop" : 1716120379605,
+      "duration" : 329
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +29,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1716119567902,
-      "stop" : 1716119568239,
-      "duration" : 337
+      "start" : 1716120379605,
+      "stop" : 1716120379605,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Open https://test.qa.saritasa.com/admin/login page",
       "time" : {
-        "start" : 1716119568239,
-        "stop" : 1716119568440,
-        "duration" : 201
+        "start" : 1716120379606,
+        "stop" : 1716120379857,
+        "duration" : 251
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "Entering email",
       "time" : {
-        "start" : 1716119568440,
-        "stop" : 1716119568511,
-        "duration" : 71
+        "start" : 1716120379857,
+        "stop" : 1716120379927,
+        "duration" : 70
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "Entering password",
       "time" : {
-        "start" : 1716119568511,
-        "stop" : 1716119568565,
-        "duration" : 54
+        "start" : 1716120379927,
+        "stop" : 1716120379980,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,9 +101,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716119568566,
-        "stop" : 1716119568608,
-        "duration" : 42
+        "start" : 1716120379980,
+        "stop" : 1716120380021,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,8 +116,8 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
       "time" : {
-        "start" : 1716119568608,
-        "stop" : 1716119569615,
+        "start" : 1716120380021,
+        "stop" : 1716120381028,
         "duration" : 1007
       },
       "status" : "passed",
@@ -131,9 +131,9 @@
     }, {
       "name" : "Open https://test.qa.saritasa.com/admin/create page",
       "time" : {
-        "start" : 1716119569615,
-        "stop" : 1716119569921,
-        "duration" : 306
+        "start" : 1716120381028,
+        "stop" : 1716120381341,
+        "duration" : 313
       },
       "status" : "passed",
       "steps" : [ ],
@@ -146,9 +146,9 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/create is opened",
       "time" : {
-        "start" : 1716119569921,
-        "stop" : 1716119569924,
-        "duration" : 3
+        "start" : 1716120381341,
+        "stop" : 1716120381343,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -161,9 +161,9 @@
     }, {
       "name" : "Entering title",
       "time" : {
-        "start" : 1716119569924,
-        "stop" : 1716119569983,
-        "duration" : 59
+        "start" : 1716120381344,
+        "stop" : 1716120381401,
+        "duration" : 57
       },
       "status" : "passed",
       "steps" : [ ],
@@ -179,9 +179,9 @@
     }, {
       "name" : "Entering content",
       "time" : {
-        "start" : 1716119569983,
-        "stop" : 1716119569996,
-        "duration" : 13
+        "start" : 1716120381401,
+        "stop" : 1716120381413,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,9 +197,9 @@
     }, {
       "name" : "Entering author",
       "time" : {
-        "start" : 1716119569996,
-        "stop" : 1716119570049,
-        "duration" : 53
+        "start" : 1716120381413,
+        "stop" : 1716120381462,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -215,9 +215,9 @@
     }, {
       "name" : "Clicking submit button",
       "time" : {
-        "start" : 1716119570049,
-        "stop" : 1716119570092,
-        "duration" : 43
+        "start" : 1716120381463,
+        "stop" : 1716120381504,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -230,8 +230,8 @@
     }, {
       "name" : "Check if success-popup is present",
       "time" : {
-        "start" : 1716119570092,
-        "stop" : 1716119571106,
+        "start" : 1716120381504,
+        "stop" : 1716120382518,
         "duration" : 1014
       },
       "status" : "passed",
@@ -245,8 +245,8 @@
     }, {
       "name" : "Open https://test.qa.saritasa.com/admin/dashboard page",
       "time" : {
-        "start" : 1716119571106,
-        "stop" : 1716119571154,
+        "start" : 1716120382518,
+        "stop" : 1716120382566,
         "duration" : 48
       },
       "status" : "passed",
@@ -260,9 +260,9 @@
     }, {
       "name" : "Page https://test.qa.saritasa.com/admin/dashboard is opened",
       "time" : {
-        "start" : 1716119571154,
-        "stop" : 1716119571157,
-        "duration" : 3
+        "start" : 1716120382566,
+        "stop" : 1716120382568,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -275,9 +275,9 @@
     }, {
       "name" : "Searching for title",
       "time" : {
-        "start" : 1716119571157,
-        "stop" : 1716119572231,
-        "duration" : 1074
+        "start" : 1716120382569,
+        "stop" : 1716120383645,
+        "duration" : 1076
       },
       "status" : "passed",
       "steps" : [ ],
@@ -293,9 +293,9 @@
     }, {
       "name" : "Checking table emptiness",
       "time" : {
-        "start" : 1716119572232,
-        "stop" : 1716119572244,
-        "duration" : 12
+        "start" : 1716120383646,
+        "stop" : 1716120383659,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -306,9 +306,15 @@
       "stepsCount" : 0,
       "hasContent" : false
     } ],
-    "attachments" : [ ],
+    "attachments" : [ {
+      "uid" : "1daf56c21084b012",
+      "name" : "Table is not empty",
+      "source" : "1daf56c21084b012.png",
+      "type" : "image/png",
+      "size" : 91863
+    } ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "stepsCount" : 16,
     "hasContent" : true
@@ -316,8 +322,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1716119572245,
-      "stop" : 1716119572304,
+      "start" : 1716120383804,
+      "stop" : 1716120383863,
       "duration" : 59
     },
     "status" : "passed",
@@ -330,11 +336,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Critical"
-  }, {
     "name" : "feature",
     "value" : "Post creation testing"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -346,7 +352,7 @@
     "value" : "TestPostCreation"
   }, {
     "name" : "host",
-    "value" : "895586fc6240"
+    "value" : "ab03b1ece465"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -376,11 +382,19 @@
         "failed" : 0,
         "broken" : 10,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 12
+        "total" : 13
       },
       "items" : [ {
+        "uid" : "a916e0cbf042fc31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716119568239,
+          "stop" : 1716119572244,
+          "duration" : 4005
+        }
+      }, {
         "uid" : "3bc33382db3f8c72",
         "status" : "passed",
         "time" : {
@@ -482,6 +496,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "a916e0cbf042fc31.json",
+  "source" : "35a2c9fa4e96d2f1.json",
   "parameterValues" : [ ]
 }
